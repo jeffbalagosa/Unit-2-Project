@@ -13,6 +13,20 @@ footer {
     background-color: #bdb19a;
 }
 
+.name {
+    float: left;
+}
+
+.backtotop {
+    float: right;
+}
+
+.name,
+.backtotop {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 /* base styles */
 h1,
 footer h2 {
@@ -37,16 +51,16 @@ hr {
       color: inherit;
   }
 
-/* Media queries for different screen sizes */
-
-@media (min-width: 768px) {
-    
     /* clearfix for fixing colapsed containers*/
     .clearfix::after {
 		content: " ";
 		display: table;
 		clear: both;
 	}
+/* Media queries for different screen sizes */
+
+@media (min-width: 768px) {
+    
 }
 
 @media (min-width: 1024px) {
