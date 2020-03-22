@@ -1,4 +1,7 @@
 /* layout */
+body {
+    text-align: center;
+}
 
 main img {
     width: 100%;
