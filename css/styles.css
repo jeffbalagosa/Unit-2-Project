@@ -13,6 +13,10 @@ footer {
     background-color: #bdb19a;
 }
 
+header img {
+    max-width: 75%;
+}
+
 .name {
     float: left;
 }
@@ -28,6 +32,15 @@ footer {
 }
 
 /* base styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: blue;
+}
+
 h1,
 h2,
 h3 {
@@ -46,7 +59,8 @@ hr {
   }
 
   /* nav */
-  header a {
+  header a,
+  header a:hover {
       display: block;
       background-color: white;
       margin-bottom: 5px;
