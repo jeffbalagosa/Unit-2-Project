@@ -51,6 +51,11 @@ hr {
       color: inherit;
   }
 
+  p {
+      padding-left: 1em;
+      padding-right: 1em;
+  }
+
     /* clearfix for fixing colapsed containers*/
     .clearfix::after {
 		content: " ";
