@@ -1,13 +1,17 @@
+/* base styles */
+* {
+    box-sizing: border-box;
+}
 h1 {
     color: blue;
 }
 
 /* Media queries for different screen sizes */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
     
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     
 }
