@@ -5,6 +5,7 @@ body {
 }
 
 main img {
+    padding-top: 2em;
     width: 100%;
 }
 
@@ -54,6 +55,7 @@ h1 {
 h1,
 h2,
 h3 {
+    padding-top: 2em;
     letter-spacing: .05em;
 }
 
