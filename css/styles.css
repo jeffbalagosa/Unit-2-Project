@@ -26,6 +26,14 @@ header img {
     max-width: 90%;
 }
 
+.name {
+    float: left;
+}
+
+.footernav {
+    float: right;
+}
+
 /* base styles */
 a {
     text-decoration: none;
