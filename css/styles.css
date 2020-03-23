@@ -113,6 +113,10 @@ hr {
 /* Media queries for different screen sizes */
 
 @media (min-width: 768px) {
+    header {
+        padding-bottom: 50px;
+    }
+
     header li{
         display: inline-block;
         font-size: 1.5em;
@@ -128,6 +132,28 @@ hr {
     header a:hover {
         color: blue;
     }
+
+    header img,
+    header p {
+        width: 50%;
+        margin-top: 75px;
+    }
+
+    header img {
+        float: right;
+    }
+
+    header p {
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    header img,
+    p {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
 }
 
 @media (min-width: 1024px) {
