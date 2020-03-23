@@ -115,6 +115,8 @@ header nav {
 /* Media queries for different screen sizes */
 
 @media (min-width: 768px) {
+
+    /* header stylings */
     header {
         padding-bottom: 50px;
     }
@@ -156,6 +158,14 @@ header nav {
         padding-right: 1em;
     }
 
+/* main stylings */
+    .col {
+        width: 50%;
+        float: left;
+        padding-left: 1em;
+        padding-right: 1em;
+        box-sizing: border-box;
+    }
 }
 
 @media (min-width: 1024px) {}
