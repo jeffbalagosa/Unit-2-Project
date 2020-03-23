@@ -49,6 +49,7 @@ a {
 a:hover {
     color: blue;
 }
+
 h1 {
     padding-top: .5em;
     padding-bottom: 1.5em;
@@ -78,38 +79,39 @@ h1,
 footer h2 {
     color: white;
     text-shadow: 2px 2px 4px #000000;
-  }
+}
 
 hr {
     border-top: 1px solid #848382;
     margin: 20px 20px 0 20px;
-  }
+}
 
-  /* nav */
-  header a,
-  header a:hover {
-      display: block;
-      background-color: white;
-      margin-bottom: 5px;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: inherit;
-  }
+/* nav */
+header a,
+header a:hover {
+    display: block;
+    background-color: white;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
 
-  p,
-  header nav {
-      padding-left: 1em;
-      padding-right: 1em;
-  }
+p,
+header nav {
+    padding-left: 1em;
+    padding-right: 1em;
+}
 
-    /* clearfix for fixing colapsed containers*/
-    .clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
+/* clearfix for fixing colapsed containers*/
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /* Media queries for different screen sizes */
 
 @media (min-width: 768px) {
@@ -117,7 +119,7 @@ hr {
         padding-bottom: 50px;
     }
 
-    header li{
+    header li {
         display: inline-block;
         font-size: 1.5em;
     }
@@ -156,6 +158,4 @@ hr {
 
 }
 
-@media (min-width: 1024px) {
-    
-}
+@media (min-width: 1024px) {}
