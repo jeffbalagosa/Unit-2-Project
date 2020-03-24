@@ -146,7 +146,7 @@ header nav,
     header a,
     header a:hover {
         margin: 0;
-        padding: 0 50px;
+        padding: 0 30px;
         background-color: inherit;
     }
 
