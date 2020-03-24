@@ -40,6 +40,10 @@ header img {
 }
 
 /* base styles */
+main {
+    background-color: white;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -175,8 +179,10 @@ header nav,
     .smallscreens {
         display: none;
     }
+
     .largerscreens {
         display: block;
+        padding-left: 2em;
     }
 }
 
