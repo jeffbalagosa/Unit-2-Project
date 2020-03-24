@@ -51,6 +51,12 @@ header p {
     display: none;
 }
 
+#funfacts {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0;
+}
+
 /* base styles */
 a {
     text-decoration: none;
