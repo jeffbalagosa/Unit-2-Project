@@ -2,21 +2,29 @@
 body {
     font-family: 'Patua One';
     text-align: center;
+    background-color: #bdb19a;
+}
+
+main {
+    background-color: white;
+}
+
+main h2 {
+    font-size: 2em;
+    padding-top: 1em;
+    margin-top: .5em;
+}
+
+main p {
+    margin-bottom: 2.5em;
 }
 
 main img {
-    padding-top: 2em;
     width: 100%;
 }
 
 header {
     padding-top: 1em;
-    padding-bottom: 1.5em;
-}
-
-header,
-footer {
-    background-color: #bdb19a;
 }
 
 header img {
@@ -24,6 +32,10 @@ header img {
     margin-bottom: 1.5em;
     width: 80%;
     max-width: 90%;
+}
+
+header p {
+    margin-top: 0;
 }
 
 .name {
@@ -40,10 +52,6 @@ header img {
 }
 
 /* base styles */
-main {
-    background-color: white;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -59,11 +67,6 @@ h1 {
     margin: 0;
 }
 
-main h2 {
-    font-size: 2em;
-}
-
-h2,
 h3 {
     padding-top: 1em;
 }
@@ -75,7 +78,7 @@ h3 {
 }
 
 footer h2 {
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 h1,
@@ -87,6 +90,10 @@ footer h2 {
 hr {
     border-top: 1px solid #848382;
     margin: 20px 20px 0 20px;
+}
+
+footer {
+    margin-top: 0;
 }
 
 /* nav */
@@ -186,4 +193,15 @@ header nav,
     }
 }
 
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    /* header section stylings */
+    header {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    /* main section stylings */
+    main {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
