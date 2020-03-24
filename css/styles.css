@@ -204,4 +204,17 @@ header nav,
         margin-left: 2em;
         margin-right: 2em;
     }
+
+    .col {
+        width: 33%;
+    }
+
+    main,
+    footer {
+        font-size: 1.2em;
+    }
+
+    .largerscreens {
+        margin-left: 2em;
+    }
 }
