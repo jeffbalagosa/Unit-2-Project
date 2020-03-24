@@ -215,6 +215,10 @@ header nav,
         width: 33%;
     }
 
+    .section2 .col {
+        width: 50%;
+    }
+
     main,
     footer {
         font-size: 1.2em;
