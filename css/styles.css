@@ -227,6 +227,11 @@ header nav,
     header nav {
         float: right;
         padding: 1.5em 0 0;
+        text-align: right;
+    }
+
+    header a {
+        padding: 0 0 0 2em;
     }
 
     header h1,
