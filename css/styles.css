@@ -171,11 +171,7 @@ header nav,
         font-size: 1.5em;
     }
 
-    header img,
-    p {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
+    
 
 /* main stylings */
     .col {
@@ -202,11 +198,13 @@ header nav,
 }
 
 @media (min-width: 1024px) {
-    /* header section stylings */
-    header {
-        margin-left: 3em;
-        margin-right: 3em;
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
     }
+
+    /* header section stylings */
 
     header h1 {
         float: left;
@@ -230,11 +228,7 @@ header nav,
     }
 
     /* main section stylings */
-    main,
-    .section2 {
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+
 
     .col {
         width: 33%;
