@@ -54,9 +54,9 @@ header p {
 }
 
 #funfacts {
-    margin-top: 1em;
+    margin-top: 0;
     margin-bottom: 1em;
-    padding-top: 0;
+    padding-top: 1em;
 }
 
 /* base styles */
@@ -100,6 +100,10 @@ hr {
     margin: 20px 20px 0 20px;
 }
 
+.section2 hr {
+    margin-top: 0;
+}
+
 footer {
     margin-top: 0;
 }
@@ -137,7 +141,7 @@ header nav,
 
     /* header stylings */
     header {
-        padding-bottom: 50px;
+        padding-bottom: 1.5em;
     }
 
     header li {
@@ -159,16 +163,20 @@ header nav,
     header img,
     header p {
         width: 50%;
-        margin-top: 3.5em;
+        padding-top: 5em;
+        box-sizing: border-box;
     }
 
     header img {
         float: right;
+        margin-top: 0;
     }
 
     header p {
         text-align: left;
         font-size: 1.5em;
+        padding-right: 2em;
+        padding-top: 3em;
     }
 
     
@@ -200,7 +208,7 @@ header nav,
 @media (min-width: 1024px) {
 
     .container {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
     }
 
