@@ -183,9 +183,9 @@ header nav,
         padding-top: 3em;
     }
 
-    
 
-/* main stylings */
+
+    /* main stylings */
     .col {
         width: 50%;
         float: left;
@@ -198,7 +198,7 @@ header nav,
     footer li {
         float: left;
     }
-    
+
     .smallscreens {
         display: none;
     }
@@ -239,12 +239,20 @@ header nav,
         width: 50%;
     }
 
+    header h1 {
+        width: 25%;
+    }
+
+    header nav {
+        width: 75%;
+    }
+
 
     header p {
         font-size: 2em;
         padding-left: 0;
         padding-right: 1em;
-        margin-top: 2.5em;
+        margin-top: 1em;
     }
 
     /* main section stylings */
