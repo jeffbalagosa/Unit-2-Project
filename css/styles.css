@@ -5,7 +5,8 @@ body {
     background-color: #bdb19a;
 }
 
-main {
+main,
+.section2 {
     background-color: white;
 }
 
@@ -206,7 +207,8 @@ header nav,
         margin-right: 3em;
     }
     /* main section stylings */
-    main {
+    main,
+    .section2 {
         margin-left: 2em;
         margin-right: 2em;
     }
