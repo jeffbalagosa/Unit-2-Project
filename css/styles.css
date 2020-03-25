@@ -236,6 +236,7 @@ header nav,
 
     header p {
         font-size: 2em;
+        padding-left: 0;
         padding-right: 1em;
         margin-top: 2.5em;
     }
